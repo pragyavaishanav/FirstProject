@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Animation</title>
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<style>
+    .navbar {
+        box-shadow: 0 3px 4px rgba(175, 183, 150, 0.6);
+    }
+</style>
+
+<body>
+    <div class="navbar-header">
+        <a class="navbar-brand" style="color: black;" href="#">
+            <b>ThreeJS</b>Animation</a>
+    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" style="color: black;" href="#">
+                    <b></b></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" style="color: black;">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <canvas id="canvas"></canvas>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-md-2">
+            </div> -->
+            <!-- <div class="col-md-10"> -->
+
+            <!-- </div> -->
+        </div>
+
+        <div class="dom">
+            <div class="container" style="width:85vh"><br /><br />
+                <div class="row">
+                    <h1 style="text-align: center; font-size:35pt;">Tell Stories about your Space through Agumented
+                        Reality</h1><br>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <h3>We build tools to help businesses adopt AR to imporve their existing digital workflows.</h3>
+                </div><br>
+
+                <div class="row" style="text-align: center;">
+                    <button class="btn btn-success" style="font-size: 25pt;">Start Now</button>
+                </div><br>
+
+                <div class="row">
+                    <h1 style="text-align: center;">Contact Sales</h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class='loader' id='loader'>
+        <div class='loader-text' id='loaderInfo'>Loading...</div>
+        <div class='loader-spinner'></div>
+    </div>
+
+
+    <script src="js/libs/three.min.js"></script>
+    <script src="js/libs/OrbitControls.js"></script>
+    <script src="js/libs/GLTFLoader.js"></script>
+    <script src="js/libs/dat.gui.min.js"></script>
+    <script src="js/libs/tween.umd.js"></script>
+    <script src="js/libs/Water.js"></script>
+    <script src="js/libs/Sky.js"></script>
+    <script src="js/libs/InfiniteGridHelper.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

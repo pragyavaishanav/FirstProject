@@ -1,0 +1,53 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.dom{
+	position: absolute;
+	top:100px;
+	left:10px;
+	width:50vw;
+	height:90vh;
+	display: flex;
+}
+
+.loader {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.loader-spinner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -60px;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 10px solid #d16161;
+	border-top: 10px solid #040b0f;
+	animation: spin 2s linear infinite;
+}
+
+.loader-text {
+	font-size: 40pt;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	transform: translate(-50%, 0);
+}
+
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
